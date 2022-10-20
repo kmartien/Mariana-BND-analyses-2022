@@ -1,3 +1,12 @@
+#' @title Label Lhos Haplotypes
+#'
+#' @description Compares all Lhos sequences from Genbank to each other
+#' and to my Lhos sequences. Identifies unique haplotypes and labels all sequences,
+#' with priority given to my haplotype designations. Sequences that match haplotypes
+#' from Chen et al. also receive a Chen.hap designation.
+#'
+#' @keywords scripts
+
 rm(list=ls())
 library(strataG)
 library(dplyr)
