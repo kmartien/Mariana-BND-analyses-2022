@@ -4,11 +4,12 @@ library(strataG)
 library(tidyverse)
 library(TursiopsDataPkg)
 source(file="R/CombineTtruLhosData.R")
+source(file="R/Combine.STRUCTURE.runs.R")
 
 #strata names: 2-All,3-Fine, 4-Broad, 5-HI.Fine, 6-CNMI_HIArch, 7-CNMI_Other, 8-CNMI_NoHybrids, 9-STRUCTURE_strata
 strat.num <- 2
 run.label <- "Ttru_Run8_subset"
-num.k.rep <- 3
+num.subsamples <- 10
 
 data("AS183.msats")
 data("AS183.strata")
@@ -23,7 +24,7 @@ loc.col <- ncol(strata)+1
 msat.merge <- right_join(strata, msats, by = "LabID") %>% data.frame() %>% arrange(CNMI_Other)
 n.CNMI.Lhos <- length(which(msat.merge$CNMI_Other != "Ttru"))
 
-sr <- lapply(1:num.k.rep, function(i){
+sr <- lapply(1:num.subsamples, function(i){
   to.keep <- sort(c(1:n.CNMI.Lhos, sample((n.CNMI.Lhos+1):nrow(msat.merge),25)))
   msat.merge.subset <- msat.merge[to.keep,]
   msat.gtypes <- df2gtypes(msat.merge.subset, ploidy = 2, id.col = 1, strata.col = strat.num, loc.col = loc.col, description = run.label)
@@ -33,11 +34,15 @@ sr <- lapply(1:num.k.rep, function(i){
   
   # Run STRUCTURE
   structureRun(msat.gtypes, k.range = 2:2, num.k.rep = 1, label = paste0(run.label,i), delete.files = FALSE, num.cores = 2, 
-                     burnin = 10000, numreps = 50000, noadmix = FALSE, freqscorr = FALSE, 
+                     burnin = 100000, numreps = 500000, noadmix = FALSE, freqscorr = FALSE, 
                      pop.prior = "usepopinfo", popflag=popflag$flag)
 })
-names(sr) <- paste0(run.label, 1:num.k.rep)
+names(sr) <- paste0(run.label, 1:num.subsamples)
 save.image(file=paste(run.label,"_sr.rdata",sep=""))
+
+group.1.ancestry <- combine.STRUCTURE.runs(sr, strat = select(strata, c(id = LabID, CNMI_Other)))
+
+save.image(file=paste(run.label,"_all.rdata",sep=""))
 
 # Calculate Evanno metrics
 #evno <- structure.evanno(sr)

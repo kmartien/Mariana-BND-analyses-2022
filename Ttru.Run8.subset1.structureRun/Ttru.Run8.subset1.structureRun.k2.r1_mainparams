@@ -1,6 +1,6 @@
 #define MAXPOPS 2
-#define BURNIN 10000
-#define NUMREPS 50000
+#define BURNIN 100000
+#define NUMREPS 500000
 #define INFILE Ttru.Run8.subset1.structureRun/Ttru.Run8.subset1.structureRun.k2.r1_data
 #define OUTFILE Ttru.Run8.subset1.structureRun/Ttru.Run8.subset1.structureRun.k2.r1_out
 #define NUMINDS 64
