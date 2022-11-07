@@ -46,5 +46,17 @@ combine.STRUCTURE.runs <- function(sr, strat){
   })))
   CNMI.ancestry.sum <- data.frame(rbind(as.character(grp1.ancestry[[1]]$CNMI.q$id), CNMI.ancestry.sum))
   
-  return(list(ancestry.sum, CNMI.ancestry.sum))  
+  prior.ancestry <- lapply(sr, function(r){
+    anc <- r[[1]]$prior.anc[which(names(r[[1]]$prior.anc) %in% as.character(CNMI.inds))]
+    Lhos.anc.row <- ifelse((r[[1]]$q.mat[1,4] > r[[1]]$q.mat[1,5]), 2, 1)
+    anc.sum <- do.call('rbind',lapply(anc, function(i){
+      i[Lhos.anc.row,]
+    }))
+  })
+  
+  prior.ancestry <- do.call('cbind', lapply(prior.ancestry, function(x){x}))
+  prior.anc.smry <- cbind(rowSums(prior.ancestry[,seq(from = 2, to = 29, by = 3)])/10, rowSums(prior.ancestry[,seq(from = 3, to = 30, by = 3)])/10)
+  colnames(prior.anc.smry) <- c("Gen.1","Gen.2")
+  
+  return(list(ancestry.sum, CNMI.ancestry.sum, prior.anc.smry))  
 }

@@ -1,0 +1,348 @@
+
+
+----------------------------------------------------
+STRUCTURE by Pritchard, Stephens and Donnelly (2000)
+     and Falush, Stephens and Pritchard (2003)
+       Code by Pritchard, Falush and Hubisz
+             Version 2.3.4 (Jul 2012)
+----------------------------------------------------
+
+
+
+Command line arguments:   structure -m Ttru.Run8.randomPopFlag1.structureRun/Ttru.Run8.randomPopFlag1.structureRun.k2.r1_mainparams -e Ttru.Run8.randomPopFlag1.structureRun/Ttru.Run8.randomPopFlag1.structureRun.k2.r1_extraparams -i Ttru.Run8.randomPopFlag1.structureRun/Ttru.Run8.randomPopFlag1.structureRun.k2.r1_data -o Ttru.Run8.randomPopFlag1.structureRun/Ttru.Run8.randomPopFlag1.structureRun.k2.r1_out 
+Input File:    Ttru.Run8.randomPopFlag1.structureRun/Ttru.Run8.randomPopFlag1.structureRun.k2.r1_data
+
+Run parameters:
+   64 individuals
+   14 loci
+   2 populations assumed
+   100000 Burn-in period
+   500000 Reps
+USEPOPINFO turned on
+MIGRPRIOR = 0.0500
+
+
+--------------------------------------------
+Proportion of membership of each pre-defined
+ population in each of the 2 clusters
+
+Given    Inferred Clusters       Number of
+ Pop       1      2             Individuals
+
+  1:     0.967  0.033              39
+  2:     0.000  1.000              25
+--------------------------------------------
+
+Allele-freq. divergence among pops (Net nucleotide distance),
+computed using point estimates of P.
+
+      1       2      
+ 1      -    0.1030  
+ 2   0.1030     -    
+
+Average distances (expected heterozygosity) between individuals in same cluster:
+cluster  1  : 0.7879 
+cluster  2  : 0.7720 
+
+--------------------------------------------
+Estimated Ln Prob of Data   = -3237.3
+Mean value of ln likelihood = -3075.3
+Variance of ln likelihood   = 324.1
+Mean value of alpha         = 1.0000
+Allele frequencies uncorrelated
+Allele frequencies updated using individuals with POPFLAG=1 ONLY.
+
+
+Inferred ancestry of individuals:
+Probability of being from assumed population | prob of other pops
+        Label (%Miss) Pop
+  1   102389    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+  2   102392    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+  3   102398    (0)    1 :  0.841 0.159 
+  4   102400    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+  5   102403    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+  6   102405    (0)    1 :  0.998 | Pop 2: 0.000 0.000 0.002  |  
+  7   102406    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+  8   102424    (0)    1 :  0.902 0.098 
+  9   103984    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+ 10   104022    (0)    1 :  0.936 0.064 
+ 11   107857    (7)    1 :  0.998 | Pop 2: 0.000 0.000 0.002  |  
+ 12   114941    (0)    1 :  0.916 0.084 
+ 13   114942    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+ 14   114943    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+ 15   114944    (0)    1 :  0.996 | Pop 2: 0.000 0.000 0.004  |  
+ 16   114958    (0)    1 :  0.924 0.076 
+ 17   123359    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+ 18   123366    (0)    1 :  0.908 0.092 
+ 19   123374    (0)    1 :  1.000 | Pop 2: 0.000 0.000 0.000  |  
+ 20   123376   (14)    1 :  0.998 | Pop 2: 0.000 0.000 0.002  |  
+ 21   123377    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+ 22   125679    (0)    2 :  0.998 | Pop 1: 0.000 0.000 0.002  |  
+ 23   133157    (0)    1 :  0.982 | Pop 2: 0.000 0.000 0.018  |  
+ 24   133165    (0)    1 :  0.930 0.070 
+ 25   133181    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+ 26   133186    (0)    1 :  0.943 0.057 
+ 27   133193    (0)    1 :  0.909 0.091 
+ 28   136815    (0)    2 :  1.000 | Pop 1: 0.000 0.000 0.000  |  
+ 29   136816    (0)    2 :  1.000 | Pop 1: 0.000 0.000 0.000  |  
+ 30   136818    (0)    2 :  1.000 | Pop 1: 0.000 0.000 0.000  |  
+ 31    15529    (7)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+ 32     2599    (7)    2 :  0.994 | Pop 1: 0.000 0.000 0.006  |  
+ 33     2601    (0)    2 :  1.000 | Pop 1: 0.000 0.000 0.000  |  
+ 34    30468    (0)    2 :  1.000 | Pop 1: 0.000 0.000 0.000  |  
+ 35    30469    (0)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+ 36    30470    (0)    2 :  0.998 | Pop 1: 0.000 0.000 0.002  |  
+ 37    34024    (0)    1 :  0.879 0.121 
+ 38      394    (0)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+ 39      399    (0)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+ 40    40922    (0)    2 :  0.998 | Pop 1: 0.000 0.000 0.002  |  
+ 41      452    (7)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+ 42      453    (0)    2 :  1.000 | Pop 1: 0.000 0.000 0.000  |  
+ 43      454    (0)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+ 44    51040    (0)    1 :  0.890 0.110 
+ 45    51068    (0)    1 :  0.888 0.112 
+ 46    51072    (0)    1 :  0.929 0.071 
+ 47    51074    (0)    1 :  0.990 | Pop 2: 0.000 0.000 0.010  |  
+ 48    51092    (0)    1 :  0.935 0.065 
+ 49    55202    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+ 50    55250    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+ 51     5556    (7)    2 :  0.995 | Pop 1: 0.000 0.000 0.005  |  
+ 52     5559    (0)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+ 53    61429    (0)    1 :  1.000 | Pop 2: 0.000 0.000 0.000  |  
+ 54    71012    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+ 55     7452    (0)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+ 56    78742    (0)    1 :  1.000 | Pop 2: 0.000 0.000 0.000  |  
+ 57    79998    (0)    1 :  0.999 | Pop 2: 0.000 0.000 0.001  |  
+ 58    92257    (0)    1 :  0.990 | Pop 2: 0.000 0.000 0.010  |  
+ 59     9553    (0)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+ 60     9554    (0)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+ 61     9555    (0)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+ 62     9846    (0)    2 :  1.000 | Pop 1: 0.000 0.000 0.000  |  
+ 63     9867    (0)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+ 64     9868    (0)    2 :  0.999 | Pop 1: 0.000 0.000 0.001  |  
+
+
+Estimated Allele Frequencies in each cluster
+
+
+Locus 1 : D08t 
+17 alleles
+0.0% missing data
+   3   0.403 0.015 
+   4   0.045 0.015 
+   7   0.030 0.015 
+   1   0.060 0.120 
+  10   0.030 0.015 
+   5   0.060 0.015 
+   8   0.030 0.134 
+   6   0.119 0.015 
+   2   0.075 0.015 
+   9   0.045 0.045 
+   0   0.015 0.388 
+  16   0.015 0.060 
+  13   0.015 0.030 
+  15   0.015 0.045 
+  11   0.015 0.015 
+  14   0.015 0.030 
+  12   0.015 0.030 
+
+Locus 2 : D5t 
+11 alleles
+1.6% missing data
+   2   0.082 0.017 
+   3   0.279 0.017 
+   4   0.164 0.017 
+   6   0.180 0.119 
+   1   0.082 0.017 
+   5   0.033 0.017 
+   8   0.066 0.034 
+   9   0.016 0.424 
+  10   0.016 0.051 
+   7   0.049 0.271 
+   0   0.033 0.017 
+
+Locus 3 : EV94t 
+19 alleles
+1.6% missing data
+   8   0.203 0.015 
+  14   0.101 0.134 
+  10   0.130 0.015 
+   2   0.058 0.045 
+  17   0.072 0.015 
+  11   0.058 0.030 
+  18   0.029 0.015 
+  16   0.029 0.015 
+   7   0.058 0.030 
+  15   0.043 0.015 
+   6   0.087 0.075 
+   1   0.015 0.134 
+   5   0.015 0.104 
+   0   0.015 0.164 
+   4   0.015 0.060 
+  13   0.015 0.060 
+  12   0.015 0.030 
+   9   0.029 0.015 
+   3   0.015 0.030 
+
+Locus 4 : KWM12at 
+16 alleles
+0.0% missing data
+   4   0.212 0.015 
+   7   0.197 0.243 
+   9   0.030 0.015 
+   5   0.182 0.076 
+   6   0.167 0.227 
+   8   0.045 0.061 
+   3   0.030 0.015 
+   0   0.015 0.091 
+   2   0.015 0.030 
+  12   0.015 0.030 
+  10   0.015 0.030 
+  13   0.015 0.030 
+  14   0.015 0.030 
+  15   0.015 0.030 
+  11   0.015 0.045 
+   1   0.015 0.030 
+
+Locus 5 : KWM1bt 
+5 alleles
+1.6% missing data
+   1   0.546 0.283 
+   2   0.363 0.547 
+   0   0.055 0.019 
+   3   0.018 0.113 
+   4   0.018 0.038 
+
+Locus 6 : KWM2at 
+11 alleles
+1.6% missing data
+   2   0.169 0.426 
+   1   0.136 0.049 
+   4   0.271 0.033 
+   5   0.136 0.033 
+   9   0.034 0.082 
+   6   0.085 0.098 
+   8   0.034 0.016 
+   7   0.051 0.066 
+   0   0.051 0.033 
+   3   0.017 0.115 
+  10   0.017 0.049 
+
+Locus 7 : KWM2bt 
+6 alleles
+0.0% missing data
+   3   0.625 0.607 
+   1   0.179 0.250 
+   2   0.054 0.018 
+   4   0.107 0.018 
+   0   0.018 0.071 
+   5   0.018 0.036 
+
+Locus 8 : SL125t 
+13 alleles
+1.6% missing data
+   1   0.246 0.016 
+   5   0.180 0.095 
+   2   0.066 0.333 
+   4   0.229 0.016 
+   3   0.098 0.064 
+   6   0.066 0.048 
+   7   0.016 0.032 
+  10   0.016 0.159 
+   9   0.016 0.063 
+   0   0.016 0.063 
+  11   0.016 0.048 
+  12   0.016 0.032 
+   8   0.016 0.032 
+
+Locus 9 : Ttr11 
+12 alleles
+0.0% missing data
+   7   0.145 0.032 
+   9   0.129 0.178 
+   6   0.113 0.113 
+   8   0.242 0.177 
+  11   0.065 0.081 
+   4   0.081 0.081 
+  10   0.064 0.064 
+   5   0.065 0.032 
+   0   0.016 0.081 
+   3   0.016 0.048 
+   2   0.016 0.097 
+   1   0.048 0.016 
+
+Locus 10 : Ttr34 
+11 alleles
+0.0% missing data
+   4   0.344 0.016 
+   6   0.213 0.016 
+   5   0.131 0.016 
+  10   0.066 0.016 
+   8   0.049 0.016 
+   7   0.066 0.016 
+   9   0.049 0.016 
+   1   0.016 0.459 
+   3   0.033 0.049 
+   2   0.016 0.263 
+   0   0.016 0.115 
+
+Locus 11 : Ttr48 
+11 alleles
+0.0% missing data
+   4   0.295 0.049 
+   0   0.131 0.016 
+   2   0.197 0.016 
+   3   0.180 0.016 
+   1   0.066 0.016 
+   5   0.033 0.099 
+   7   0.016 0.230 
+   8   0.033 0.262 
+   9   0.016 0.131 
+   6   0.016 0.131 
+  10   0.016 0.033 
+
+Locus 12 : Ttr58 
+8 alleles
+0.0% missing data
+   3   0.362 0.017 
+   4   0.414 0.017 
+   1   0.017 0.396 
+   6   0.069 0.242 
+   2   0.069 0.258 
+   0   0.017 0.017 
+   5   0.017 0.034 
+   7   0.034 0.017 
+
+Locus 13 : TV5t 
+12 alleles
+0.0% missing data
+   6   0.081 0.016 
+   8   0.161 0.177 
+   7   0.081 0.016 
+   5   0.194 0.016 
+   4   0.210 0.032 
+   3   0.113 0.016 
+   2   0.081 0.048 
+   9   0.016 0.323 
+  10   0.016 0.113 
+   1   0.016 0.081 
+  11   0.016 0.113 
+   0   0.016 0.048 
+
+Locus 14 : TV7t 
+10 alleles
+3.1% missing data
+   1   0.155 0.293 
+   2   0.155 0.121 
+   3   0.345 0.017 
+   5   0.190 0.345 
+   4   0.052 0.017 
+   7   0.034 0.017 
+   0   0.017 0.034 
+   9   0.017 0.086 
+   6   0.017 0.034 
+   8   0.017 0.034 
+
+Values of parameters used in structure:
+DATAFILE=Ttru.Run8.randomPopFlag1.structureRun/Ttru.Run8.randomPopFlag1.structureRun.k2.r1_data,	OUTFILE=Ttru.Run8.randomPopFlag1.structureRun/Ttru.Run8.randomPopFlag1.structureRun.k2.r1_out,	NUMINDS=64,	NUMLOCI=14,	MISSING=-9,	LABEL=1,	POPDATA=1,	POPFLAG=1,	PHENOTYPE=0,	EXTRACOLS=0,	MAXPOPS=2,	BURNIN=100000,	NUMREPS=500000,	USEPOPINFO=1,	INFERALPHA=0,	INFERLAMBDA=0,	POPSPECIFICLAMBDA=0,	POPALPHAS=0,	COMPUTEPROB=1,	NOADMIX=0,	ADMBURNIN=50000,	UPDATEFREQ=200,	PRINTLIKES=0,	INTERMEDSAVE=0,	PRINTKLD=0,	PRINTNET=0,	PRINTLAMBDA=0,	ANCESTDIST=0,	NUMBOXES=1000,	ANCESTPINT=0.90000,	GENSBACK=2,	MIGRPRIOR=0.05000,	PRINTQHAT=0,	PRINTQSUM=0,	ALPHA=1.0000,	FREQSCORR=0,	FPRIORMEAN=0.0100,	FPRIORSD=0.0500,	ONEFST=0,	LAMBDA=1.0000,	UNIFPRIORALPHA=1,	ALPHAMAX=20.0000,	ALPHAPRIORA=0.0500,	ALPHAPRIORB=0.0010,	ALPHAPROPSD=0.0250,	STARTATPOPINFO=0,	RANDOMIZE=1,	LINKAGE=0,	METROFREQ=10,	REPORTHITRATE=0,	MARKOVPHASE=-1,	PHASED=1,	PLOIDY=2,	PHASEINFO=0	LOCPRIOR=0, 	LOCPRIORINIT=1.000000, 	LOCDATA=0, 	LOCISPOP=0, 	LOCPRIORSTEP=0.100000, 	MAXLOCPRIOR=20.000000, 	SEED=1667843694,	
+[STRAT parameters]:    NUMSIMSTATS=1000,	PHENOTYPECOL=-9,	POOLFREQ=10,	LOCUSxONLY=0,	EMERROR=0.00100,	MISSINGPHENO=-9,	

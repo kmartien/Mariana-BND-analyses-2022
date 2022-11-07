@@ -1,3 +1,7 @@
+# This is a sensitivity test of Run 8 in which 14 randomly chosen HI animals
+# have popflag = 0 so that I can compare their proportional assignment to Lhos
+# to that of the CNMI animals in the real Run 8
+
 rm(list = ls())
 library(swfscMisc)
 library(strataG)
@@ -8,8 +12,8 @@ source(file="R/Combine.STRUCTURE.runs.R")
 
 #strata names: 2-All,3-Fine, 4-Broad, 5-HI.Fine, 6-CNMI_HIArch, 7-CNMI_Other, 8-CNMI_NoHybrids, 9-STRUCTURE_strata
 strat.num <- 2
-run.label <- "Ttru_Run7_subset"
-num.subsamples <- 10
+run.label <- "Ttru_Run8_randomPopFlag"
+num.subsamples <- 3
 
 data("AS183.msats")
 data("AS183.strata")
@@ -21,17 +25,23 @@ msats <- comb.data$msats
 strata <- comb.data$strata
 loc.col <- ncol(strata)+1
 
+# Changing the 'Fine' stratification to aplace where randomly selected HIArch animals 
+# can be designated CNMI
+names(strata)[3] <- "randomCNMI"
+strata$randomCNMI <- strata$All
+
 msat.merge <- right_join(strata, msats, by = "LabID") %>% data.frame() %>% arrange(CNMI_Other)
 n.CNMI.Lhos <- length(which(msat.merge$CNMI_Other != "Ttru"))
 
 sr <- lapply(1:num.subsamples, function(i){
-  to.keep <- sort(c(1:n.CNMI.Lhos, sample((n.CNMI.Lhos+1):nrow(msat.merge),25)))
-#  to.keep <- c(which(msat.merge$STRUCTURE_strata != "HIArch"), sample(which(msat.merge$STRUCTURE_strata == "HIArch"),19))
+#  to.keep <- sort(c(1:n.CNMI.Lhos, sample((n.CNMI.Lhos+1):nrow(msat.merge),25)))
+  to.keep <- c(which(msat.merge$All == "Lhos"), sample(which(msat.merge$CNMI_HIArch == "HIArch"),39))
   msat.merge.subset <- msat.merge[to.keep,]
+  msat.merge.subset$randomCNMI[sample(which(msat.merge.subset$All == "All"), 14)] <- "CNMI"
   msat.gtypes <- df2gtypes(msat.merge.subset, ploidy = 2, id.col = 1, strata.col = strat.num, loc.col = loc.col, description = run.label)
   
   popflag <- data.frame(LabID = as.numeric(getIndNames(msat.gtypes))) %>% 
-    left_join(strata, by= "LabID") %>% transmute(flag = 1)
+    left_join(msat.merge.subset, by= "LabID") %>% transmute(flag = ifelse(randomCNMI == "CNMI",0,1))
   
   # Run STRUCTURE
   structureRun(msat.gtypes, k.range = 2:2, num.k.rep = 1, label = paste0(run.label,i), delete.files = FALSE, num.cores = 2, 
@@ -41,9 +51,6 @@ sr <- lapply(1:num.subsamples, function(i){
 names(sr) <- paste0(run.label, 1:num.subsamples)
 save.image(file=paste(run.label,"_sr.rdata",sep=""))
 
-group.1.ancestry <- combine.STRUCTURE.runs(sr, strat = select(strata, c(id = LabID, CNMI_Other)))
-
-save.image(file=paste(run.label,"_all.rdata",sep=""))
 
 # Calculate Evanno metrics
 #evno <- structure.evanno(sr)
