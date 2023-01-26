@@ -42,7 +42,7 @@ save.image(file=paste(run.label,"_sr.rdata",sep=""))
 
 group.1.ancestry <- combine.STRUCTURE.runs(sr, strat = select(strata, c(id = LabID, CNMI_Other)))
 
-save.image(file=paste(run.label,"_all.rdata",sep=""))
+save.image(file=paste("results/",run.label,"_all.rdata",sep=""))
 
 # Calculate Evanno metrics
 #evno <- structure.evanno(sr)

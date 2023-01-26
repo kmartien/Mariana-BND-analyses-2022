@@ -49,7 +49,7 @@ sr <- lapply(1:num.subsamples, function(i){
                pop.prior = "usepopinfo", popflag=popflag$flag)
 })
 names(sr) <- paste0(run.label, 1:num.subsamples)
-save.image(file=paste(run.label,"_sr.rdata",sep=""))
+save.image(file=paste("results/",run.label,"_sr.rdata",sep=""))
 
 
 # Calculate Evanno metrics

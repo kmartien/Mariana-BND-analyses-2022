@@ -1,0 +1,113 @@
+﻿ID,FIELDID,Geographic group,Location,Sex,SamplingYear,Source,Archive institution,Microstatellite analysis,mtDNA haplotype
+EW00551,EW00551,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_1
+EW00548,EW00548,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_10
+EW00566,EW00566,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_10
+EW00569,EW00569,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_10
+EW00549,EW00549,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_11
+EW00558,EW00558,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_11
+EW00562,EW00562,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_11
+EW00570,EW00570,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_11
+59,HU20001009-02,Taiwan,Hualien,M,2000,Bycatch,NTU,Included,Hap_11
+EW00550,EW00550,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_12
+EW00552,EW00552,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_13
+EW00554,EW00554,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_14
+EW00578,EW00578,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_14
+LHDU01,HU20100717,Taiwan,Hualien,M,2010,Stranding,NTU,Included,Hap_14
+821,IL20041227,Taiwan,Ilan,M,2004,Stranding,NTU,Included,Hap_14
+EW00555,EW00555,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_15
+EW00557,EW00557,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_16
+441,HU0008,Taiwan,Hualien,M,2000,Bycatch,NTU,Included,Hap_16
+1201,HU20080110,Taiwan,Hualien,M,2008,Stranding,NTU,Included,Hap_16
+911,ST20051210,Taiwan,Hualien,M,2005,Bycatch,NTU,Included,Hap_16
+EW00559,EW00559,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_17
+EW04872,EW04872,Taiwan,"Okinawa, Japan",M,2007,Stranding,es-Bank,Included,Hap_17
+9554,CK9713,Taiwan,Taitung,M,1997,Bycatch,NTU,Included,Hap_17
+770,GL20050322,Taiwan,Unknown,M,2005,N/A,NTU,Included,Hap_17
+1349,HU20091210,Taiwan,Hualien,M,2009,Stranding,NTU,Included,Hap_17
+EW00560,EW00560,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_18
+EW00577,EW00577,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_18
+EW00561,EW00561,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_19
+2671,ZZZ0018,Philippines,Siaton?,F,1992,Bycatch,SWFSC,Included,Hap_19
+EW00568,EW00568,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_2
+EW00571,EW00571,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_2
+EW00575,EW00575,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_2
+191,CY0108,Taiwan,Chiayi,M,2001,Seizure,NTU,Included,Hap_2
+721,HU2001014,Taiwan,Hualien,,2001,Bycatch,NTU,Included,Hap_2
+1150,ST20051215,Taiwan,Hualien,M,2005,Bycatch,NTU,Included,Hap_2
+LHDU03,TD20100707,Taiwan,Taitung,F,2010,Stranding,NTU,Included,Hap_2
+EW00563,EW00563,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_20
+EW00564,EW00564,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_21
+EW00565,EW00565,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_22
+KUL13,EW00588,Philippines,,M,1996,N/A,es-Bank,Excluded,Hap_22
+48101,NEPST571,Caribbean Sea,"Aguadilla, Puerto Rico",M,1999,Stranding,SWFSC,Included,Hap_22
+48119,NEPST615,Caribbean Sea,"San Pedro Macoris, Dominican Republic",M,2001,Stranding,SWFSC,Included,Hap_22
+EW00576,EW00576,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_23
+EW00579,EW00579,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_24
+479,HU0001,Taiwan,Hualien,F,2000,Bycatch?,NTU,Excluded,Hap_25
+394,IUCN0003,Philippines,Siaton,M,1991,Bycatch,SWFSC,Included,Hap_25
+KUL9,EW00584,Philippines,,F,1996,N/A,es-Bank,Excluded,Hap_26
+399,IUCN0008,Philippines,Siaton,F,1991,Bycatch,SWFSC,Included,Hap_26
+2599,WFP0778/SUML0063,Philippines,Siaton?,M,1994,Bycatch,SWFSC,Included,Hap_27
+7452,PS-02,Philippines,Siaton?,M,1997,Bycatch,SWFSC,Included,Hap_28
+2653,STNA,Philippines,Siaton?,F,1993,Bycatch,SWFSC,Included,Hap_28
+2606,WFP0779/SUML0060,Philippines,Siaton?,M,1994,Bycatch,SWFSC,Included,Hap_29
+EW00567,EW00567,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_3
+EW00572,EW00572,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Excluded,Hap_3
+KUL11,EW00586,Philippines,,F,1996,N/A,es-Bank,Excluded,Hap_30
+60,HU2000027,Taiwan,Hualien,M,2000,Bycatch,NTU,Included,Hap_30
+303,ST041022-1,Taiwan,Hualien,M,2004,Bycatch,NTU,Included,Hap_30
+48133,NEPST842,Caribbean Sea,"Humacao, Puerto Rico",M,2002,Stranding,SWFSC,Included,Hap_30
+599,HU2000045,Taiwan,Hualien,M,2000,Bycatch,NTU,Included,Hap_31
+LHDU07,HU20130706,Taiwan,Hualien,F,2013,Stranding,NTU,Included,Hap_31
+LHDU06,HU9809,Taiwan,Hualien,M,1998,Bycatch?,NTU,Included,Hap_31
+665,PT2001001,Taiwan,Pingdong,F,2001,Stranding?,NTU,Excluded,Hap_31
+9555,SU9479,Taiwan,Ilan,M,1994,Bycatch,NTU,Included,Hap_32
+51,DD2000001,Taiwan,Taitung,M,2000,Stranding?,NTU,Included,Hap_33
+299,HU2000026,Taiwan,Hualien,M,2000,Bycatch,NTU,Included,Hap_34
+1126,ST2005,Taiwan,Hualien,F,2005,Bycatch,NTU,Included,Hap_34
+309,ST041012-1,Taiwan,Hualien,M,2004,Bycatch,NTU,Included,Hap_35
+311,ST041012-5,Taiwan,Hualien,F,2004,Bycatch,NTU,Included,Hap_35
+602,HU2000030,Taiwan,Hualien,M,2000,Bycatch,NTU,Included,Hap_36
+606,HU2001021,Taiwan,Hualien,M,2001,Bycatch,NTU,Included,Hap_37
+715,HU2001017,Taiwan,Hualien,F,2001,Bycatch,NTU,Included,Hap_38
+887,ST2005002,Taiwan,Hualien,F,2005,Bycatch,NTU,Included,Hap_39
+EW1265,EW1265,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_4
+66,HU2000046,Taiwan,Hualien,M,2000,Bycatch,NTU,Included,Hap_4
+8,KS2000001,Taiwan,Kaohsiung,F,2000,Stranding,NTU,Included,Hap_4
+304,ST041028-2,Taiwan,Hualien,M,2004,Bycatch,NTU,Included,Hap_4
+LHDU10,TD20130525,Taiwan,Taitung,M,2013,Stranding,NTU,Included,Hap_4
+30469,DSJ021104.02,Central North Pacific,Hawaii,F,2002,Biopsy,SWFSC,Included,Hap_4
+1090,IL07001,Taiwan,Ilan,F,2007,Stranding,NTU,Included,Hap_40
+1155,TD20061125,Taiwan,Taitung,M,2006,Bycatch?,NTU,Included,Hap_41
+1323,TD20090526,Taiwan,Taitung,M,2009,Stranding,NTU,Included,Hap_42
+LHDU08,TD20120226,Taiwan,Taitung,M,2012,Stranding,NTU,Included,Hap_43
+LHDU11,KH20120329,Taiwan,Kaoshiung,F,2012,Stranding,NTU,Included,Hap_44
+15529,JHT0303,Eastern Tropical Pacific,Eastern Tropical Pacific,F,1975,Bycatch,SWFSC,Included,Hap_45
+30468,DSJ021104.01,Central North Pacific,Hawaii,M,2002,Biopsy,SWFSC,Included,Hap_46
+30470,DSJ021104.03,Central North Pacific,Hawaii,M,2002,Biopsy,SWFSC,Included,Hap_47
+2509,MM-9406,Gulf of Mexico,"Fort Myers Beach, Florida",F,1994,Stranding,SWFSC,Included,Hap_48
+2507,MM-9407,Gulf of Mexico,"Fort Myers Beach, Florida",M,1994,Stranding,SWFSC,Included,Hap_48
+EW00542,EW00542,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_5
+EW00543,EW00543,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_6
+35,HU9806,Taiwan,Hualien,M,1998,Bycatch?,NTU,Included,Hap_6
+LHDU04,IL040731,Taiwan,Ilan,M,2004,Seizure?,NTU,Included,Hap_6
+EW00544,EW00544,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_7
+EW00545,EW00545,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_8
+EW00547,EW00547,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,Hap_9
+EW00574,EW00574,Japan,"Taiji, Wakayama",F,1991,Drive fishery,es-Bank,Included,Hap_9
+EW00546,EW00546,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,
+EW00556,EW00556,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,
+EW00573,EW00573,Japan,"Taiji, Wakayama",M,1991,Drive fishery,es-Bank,Included,
+9553,CK9715,Taiwan,Taitung,F,1997,Bycatch,NTU,Included,
+LHDU09,HU20120227,Taiwan,Hualien,F,2012,Stranding,NTU,Included,
+LHDU02,TP20110830,Taiwan,Taipei,M,2011,Stranding,NTU,Included,
+5553,HAB0001-94,Philippines,Siaton,M,1994,Bycatch,SWFSC,Included,
+5556,HAB0007-94,Philippines,Siaton,M,1994,Bycatch,SWFSC,Included,
+5559,HAB0024-94,Philippines,Siaton,F,1994,Bycatch,SWFSC,Included,
+395,IUCN0004,Philippines,Siaton,F,1991,Bycatch,SWFSC,Included,
+2594,WFP0731/SUML0059,Philippines,Siaton?,M,1994,Bycatch,SWFSC,Included,
+2596,WFP0745/SUML0062,Philippines,Siaton?,F,1994,Bycatch,SWFSC,Included,
+2607,WFP0780/SUML0069,Philippines,Siaton?,M,1994?,Bycatch,SWFSC,Included,
+2601,WFP0786,Philippines,Siaton?,F,1994,Bycatch,SWFSC,Included,
+2595,WFP0787,Philippines,Siaton?,F,1994,Bycatch,SWFSC,Included,
+2600,WFP0788/SUML0058,Philippines,Siaton?,M,1994,Bycatch,SWFSC,Included,
