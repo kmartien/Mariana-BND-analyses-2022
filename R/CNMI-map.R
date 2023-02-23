@@ -27,7 +27,7 @@ samp.dat$col[which(samp.dat$Haplotype %in% c("Lh1","Lh11"))] <- discrete_palette
 
 loc.labels <- data.frame(matrix(c(145.5, 13.5, "Guam", 1,
                                   145.8, 14.1, "Rota", 1,
-                                  144.6, 15.2, "3-Islands", 1,
+                                  144.6, 15.2, "Saipan, Tinian,\nAguijan\n(3-Islands)", 1,
                                   145, 18, "Pagan", 1,
                                   145, 16.35, "Anatahan", 1,
                                   145.7, 20.6, "Farallon de\nParajos", 1,
@@ -48,11 +48,17 @@ plot(MI.bathy, image = TRUE, land = TRUE,
      step = c(1000, 500, 0),
      lwd = c(0.8, 0.8, 1), lty = c(1, 1, 1),
      col = c("lightgrey", "darkgrey", "black"),
-     drawlabel = c(FALSE, FALSE, FALSE))
+     drawlabel = c(FALSE, FALSE, FALSE), 
+     xlab = "Longitude (\u00B0E)", ylab = "Latitude (\u00B0N)")
 points(x = sighting.dat$Long, y = sighting.dat$Lat, pch = 21, bg = "grey15", cex = 0.8)
 points(x=samp.dat$Longitude, y=samp.dat$Latitude, pch = samp.dat$pch, bg=samp.dat$col, col = "black", cex=samp.dat$size)
 text(x=as.numeric(loc.labels$long),y=as.numeric(loc.labels$lat),labels=loc.labels$text, cex=as.numeric(loc.labels$size))
 compassRose(x = 143, y = 13, cex = 0.4)
 scaleBathy(MI.bathy, deg = .918, x = "bottomleft", inset = 5)
-box(lwd=2)
+dev.off()
+
+jpeg(file = "results/world-map-with-rectangle-around-MI.jpg")
+map('worldHires', xlim=c(60,180), ylim=c(-45,60), fill=TRUE, col="lightgrey")
+rect(142,12,147,21, lwd = 5, border = "#4292C6")
+box()
 dev.off()
