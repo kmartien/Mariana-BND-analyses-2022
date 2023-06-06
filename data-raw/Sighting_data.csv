@@ -1,0 +1,41 @@
+﻿LABID,Region,Location,Sex,Haplotype,CatalogID,Year1s Seen,YearLastSeen,NumYearsSeen,SightingHistoryLength
+197370,Northern Islands,CNMI - Pagan,F,32,No ID; bad photos (distinct unmatchable),NA,NA,NA,NA
+159727,Northern Islands,CNMI - Anatahan,M,32,No ID; no photos,NA,NA,NA,NA
+159745,Northern Islands,CNMI - Agrihan,F,LH11,No ID; no photos,NA,NA,NA,NA
+197366,Offshore,CNMI - Offshore,F,41,No ID; bad photos,NA,NA,NA,NA
+197367,Offshore,CNMI - Offshore,M,42,No ID; no photos,NA,NA,NA,NA
+197368,Offshore,CNMI - Offshore,M,43,MITt-000078,2018,2018,1,1
+197397,Southern Islands,CNMI - Tinian,M,9,MITt-000060,2016,2018,2,3
+185380,Southern Islands,CNMI - Saipan,F,9,MITt-000069,2017,2017,1,1
+197356,Southern Islands,CNMI - Saipan,F,9,TtMI-un10002,2018,2018,1,1
+104035,Southern Islands,CNMI - Guam,M,32,MITt-000011,2011,2012,2,2
+108171,Southern Islands,CNMI - Rota,U,32,MITt-000020,2012,2015,3,4
+108172,Southern Islands,CNMI - Rota,M,32,MITt-000022,2012,2016,5,5
+143752,Southern Islands,CNMI - Rota,M,32,MITt-000024,2012,2014,2,3
+116866,Southern Islands,CNMI - Saipan,M,32,MITt-000038,2013,2017,3,5
+116869,Southern Islands,CNMI - Saipan,M,32,MITt-000045,2013,2016,3,4
+175294,Southern Islands,CNMI - Saipan,F,32,MITt-000046,2014,2017,3,4
+159778,Southern Islands,CNMI - Rota,M,32,MITt-000053,2015,2015,1,1
+185379,Southern Islands,CNMI - Saipan,M,32,MITt-000062,2016,2017,2,2
+185382,Southern Islands,CNMI - Saipan,F,32,MITt-000067,2017,2018,2,2
+185381,Southern Islands,CNMI - Saipan,M,32,MITt-000071,2017,2017,1,1
+104070,Southern Islands,CNMI - Tinian,M,32,No ID; D-3,2011,2011,1,1
+159772,Southern Islands,CNMI - Rota,M,32,No ID; D-4,2015,2015,1,1
+116858,Southern Islands,CNMI - Rota,F,32,No ID; no photos,NA,NA,NA,NA
+116881,Southern Islands,CNMI - Saipan,M,33,MITt-000044,2013,2014,2,2
+104067,Southern Islands,CNMI - Saipan,M,34,MITt-000002,2011,2012,2,2
+108183,Southern Islands,CNMI - Aguijan,M,39,MITt-000025,2012,2012,1,1
+143738,Southern Islands,CNMI - Tinian,F,40,MITt-000050,2014,2014,1,1
+159773,Southern Islands,CNMI - Rota,M,LH1,MITt-000003,2011,2018,5,8
+104066,Southern Islands,CNMI - Saipan,F,LH1,MITt-000007,2011,2013,3,3
+108208,Southern Islands,CNMI - Guam,F,LH1,MITt-000013,2012,2013,2,2
+116867,Southern Islands,CNMI - Saipan,M,LH1,MITt-000042,2013,2015,2,3
+116868,Southern Islands,CNMI - Saipan,M,LH1,MITt-000043,2013,2014,2,2
+159770,Southern Islands,CNMI - Rota,M,LH1,MITt-000054,2015,2015,1,1
+159780,Southern Islands,CNMI - Rota,M,LH1,MITt-000056,2015,2015,1,1
+159781,Southern Islands,CNMI - Rota,M,LH1,MITt-000057,2015,2015,1,1
+159776,Southern Islands,CNMI - Rota,M,LH1,No ID; no photos,NA,NA,NA,NA
+159777,Southern Islands,CNMI - Rota,F,LH1,No ID; no photos,NA,NA,NA,NA
+108207,Southern Islands,CNMI - Guam/Rota,F,LH1,TtMI-unU00006  ,2012,2015,2,4
+159774,Southern Islands,CNMI - Rota,F,LH1,No ID; D-3,2015,2015,1,1
+159771,Southern Islands,CNMI - Rota,F,LH1,No ID; D-4,2015,2015,1,1
