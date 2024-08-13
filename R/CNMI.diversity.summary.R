@@ -14,7 +14,7 @@ strat.gtype <- strataSplit(all.gtype)
 
 #summaries with all CNMI samples
 diversity.CNMI <- strataG::summarizeLoci(strat.gtype$CNMI)
-diversity.CNMI$nucDiv <- mean(nucleotideDiversity(strat.gtype$CNMI))
+diversity.CNMI$nucDiv <- mean(nucleotideDiversity(strat.gtype$CNMI), na.rm = TRUE)
 
 #summaries without Lhos haps
 MI.df.noLhos <- all.ttru[-which(all.ttru$Haplotype %in% c("Lh1","Lh11")),] %>%
@@ -22,25 +22,25 @@ MI.df.noLhos <- all.ttru[-which(all.ttru$Haplotype %in% c("Lh1","Lh11")),] %>%
 
 MI.gtype.noLhos <- df2gtypes(MI.df.noLhos[,c("LabID","Broad","Haplotype")], ploidy = 1, sequences = seqs)
 diversity.CNMI.noLhos <- summarizeLoci(MI.gtype.noLhos)
-diversity.CNMI.noLhos$nucDiv <- mean(nucleotideDiversity(MI.gtype.noLhos))
+diversity.CNMI.noLhos$nucDiv <- mean(nucleotideDiversity(MI.gtype.noLhos), na.rm = TRUE)
 
 #summaries of all BNDs
 diversity.Ttru <- summarizeLoci(all.gtype)
-diversity.Ttru$nucDiv <- mean(nucleotideDiversity(all.gtype))
+diversity.Ttru$nucDiv <- mean(nucleotideDiversity(all.gtype), na.rm = TRUE)
 
 #summaries of all BNDs without Lhos haps
 Ttru.noLhos.df <- all.ttru[-which(all.ttru$Haplotype %in% c("Lh1","Lh11")),]
 Ttru.noLhos.gtype <- df2gtypes(Ttru.noLhos.df[,c("LabID","Broad","Haplotype")], ploidy = 1, sequences = seqs)
 diversity.Ttru.noLhos <- summarizeLoci(Ttru.noLhos.gtype)
-diversity.Ttru.noLhos$nucDiv <- mean(nucleotideDiversity(Ttru.noLhos.gtype))
+diversity.Ttru.noLhos$nucDiv <- mean(nucleotideDiversity(Ttru.noLhos.gtype), na.rm = TRUE)
 
 #summaries with all HI samples
 diversity.HI <- summarizeLoci(strat.gtype$HI)
-diversity.HI$nucDiv <- mean(nucleotideDiversity(strat.gtype$HI))
+diversity.HI$nucDiv <- mean(nucleotideDiversity(strat.gtype$HI), na.rm = TRUE)
 
 overall.sum <- rbind(diversity.CNMI.noLhos, diversity.CNMI,diversity.HI, diversity.Ttru.noLhos, diversity.Ttru)
 overall.sum$locus <- c("CNMInoLhos","allCNMI","HI","Ttru.noLhos","allTtru")
 
 stats <- pairwiseTest(all.gtype,nrep=10000)
 
-save.image(file="CNMI.diversity.summary.Rdata")
+save.image(file="data/CNMI.diversity.summary.Rdata")
